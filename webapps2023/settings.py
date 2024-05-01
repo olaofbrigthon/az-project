@@ -81,10 +81,11 @@ DATABASES = {
         'NAME': 'server3',
         'USER': 'adim',
         'PASSWORD': 'Moyosore123',
-        'HOST': 'localhos',
-        'PORT': '',
+        'HOST': 'localhost',  # Corrected spelling
+        'PORT': '',  # Empty string for default PostgreSQL port
     }
 }
+
 
 
 
