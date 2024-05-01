@@ -77,14 +77,15 @@ WSGI_APPLICATION = 'webapps2023.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'server3',
-        'User': 'adim',
-        'PASSWORD': 'Moyosore123'
+        'USER': 'adim',
+        'PASSWORD': 'Moyosore123',
         'HOST': 'localhost',
-        'PORT': ''
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
